@@ -1,0 +1,3 @@
+= polls
+
+This is a polls plugin for Redmine for an interview in redmineup.com
