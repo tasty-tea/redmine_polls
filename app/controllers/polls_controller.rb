@@ -20,6 +20,7 @@ class PollsController < ApplicationController
 
   def find_project
     # @project variable must be set before calling the authorize filter
+    #I'm not sure how to patch Project model to add relation :has_many, so project and polls are not related by now
     @project = Project.find(params[:project_id])
   end
 end
